@@ -1,0 +1,12 @@
+{
+  "name": "ronoudgenoeg/react-boilerplate",
+  "require": {
+    "robloach/component-installer": "*"
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "component": {
+      "files": ["dist/app.min.js"]
+    }
+  }
+}
