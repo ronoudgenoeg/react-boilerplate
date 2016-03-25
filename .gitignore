@@ -1,0 +1,6 @@
+.idea
+.git
+.DS_Store
+node_modules
+coverage
+index.html

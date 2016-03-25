@@ -1,0 +1,15 @@
+<!-- This is just a suggested index file. -->
+<!-- You can add any html or styling as you see fit. -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Boilerplate</title>
+    <script src="/static/bundle.js"></script> <!-- For hot reloading development -->
+    <!-- <script src="./dist/app.min.js"></script> to run the minified version directly in your browser -->
+</head>
+<body>
+<div id="app"></div>
+<script>app.render(document.getElementById('app'), {})</script>
+</body>
+</html>
