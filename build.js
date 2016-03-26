@@ -15,8 +15,8 @@ const createStoreWithMiddleware = applyMiddleware(
 )(createStore);
 
 window.app = {
-  render(el, config) {
-    const store = createStoreWithMiddleware(reducer, {config});
+  render(el, initialState = {}) {
+    const store = createStoreWithMiddleware(reducer, initialState);
     render(<Provider store={store}><App /></Provider>, el);
   }
 };
