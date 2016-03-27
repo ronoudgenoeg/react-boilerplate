@@ -1,8 +1,8 @@
 {
   "name": "boilerplate",
-  "version": "0.1.0-alpha",
+  "version": "1.0",
   "description": "boilerplate",
-  "private": true,
+  "private": false,
   "scripts": {
     "setup": "npm install",
     "dev": "node server.js",
