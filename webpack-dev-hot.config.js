@@ -1,5 +1,5 @@
-const webpack = require("webpack");
-var path = require('path');
+const webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
   entry: [
@@ -9,10 +9,10 @@ module.exports = {
   ],
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: "bundle.js",
+    filename: 'bundle.js',
     publicPath: '/static/'
   },
-  devtool: 'eval',
+  devtool: '#inline-source-map',
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.DefinePlugin({

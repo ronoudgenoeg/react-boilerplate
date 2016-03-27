@@ -1,10 +1,10 @@
-const webpack = require("webpack");
+const webpack = require('webpack');
 
 module.exports = {
-  entry: "./build.js",
+  entry: './build.js',
   output: {
-    filename: "app.min.js",
-    path: "./dist"
+    filename: 'app.min.js',
+    path: './dist'
   },
   plugins: [
     new webpack.optimize.UglifyJsPlugin({
@@ -19,7 +19,7 @@ module.exports = {
   module: {
     loaders: [
       {
-        loader: "babel",
+        loader: 'babel',
         exclude: /(node_modules|bower_components)/,
         test: /\.jsx?$/
       }
