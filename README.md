@@ -6,7 +6,7 @@
 
 ```
 git clone git@github.com:ronoudgenoeg/react-boilerplate.git
-git remote add origin git@github.com:username/repositoryname.git
+git remote set-url origin git@github.com:username/repositoryname.git
 git push -u origin master
 ```
 Replace username and repositoryname with your own.
