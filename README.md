@@ -27,3 +27,11 @@ Commands:
 To run the distribution file copy dist/app.min.js file to your application, or use composer component installer.
 
 Start writing react code in src/containers/app.js
+
+### Notes
+
+* Uses ecmascript 6 via babel
+* Uses ramda to ensure immutable objects
+* Uses redux
+* Uses react hot reloading to speed up development significantly
+
